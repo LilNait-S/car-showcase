@@ -60,7 +60,7 @@ const CarCard = ({ car }: CarCardProps) => {
           </div>
 
           <div className="flex flex-col justify-center items-center gap-2">
-            <Image src="/gas.svg" width={20} height={20} alt="car gas" />
+            <Image src="/gas.svg" width={20} height={20} alt="car gas" className="aspect-square" />
             <p className="text-[14px]">{city_mpg} MPG</p>
           </div>
         </div>
